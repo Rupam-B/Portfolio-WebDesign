@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My skills</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <Section id="TopContent">
+        <div class="TopContainer">
+            <div class="navbar">
+                <div class="localhead">
+                    <h1><span>He</span>llo <span>I am</span> <br><span>R</span>upam</h1>
+                </div>
+                <div class="links">
+                    <ul id="menus">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#About me">About</a></li>
+                        <li><a href="#Grids">Skills</a></li>
+                        <li><a href="#Portfolio">Achivements</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><i class="fa-solid fa-xmark" onclick="closemenu()"></i></li>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </div>
+
+            </div>
+            <div class="textbar">
+                <h1>Please Check <br> my profile here</h1>
+                <i class="fa-solid fa-arrow-down"></i>
+
+            </div>
+
+        </div>
+    </Section>
+    <section id="About me">
+        <div class="aboutcontainer">
+            <h1 class="head">About <span>Me</span></h1>
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="dpimg10-removebg-preview edit.jpg" id="img1">
+                </div>
+                <div class="about-col-2">
+                    <div class="header">
+                        <p>My Full name is Rupam Banerjee. I am a person with a lot of enthusiasm to learn new things and I follow the motto “Live Life to the Fullest”. I mainly believe that hard work really matters in our progress. With my hard work I was in the top 10 in the school. I continued this hard work and perseverance even in the later stage, so I stood as a rank holder in the intermediate, But it didn’t obstruct me to go for other activities like participating in several Cultural Activities which were held during annual day celebrations in school and college. I also learnt Guitar for few months but due to some reasons I dropped it. If I have a chance I will continue this in the future. I have presented technical projects during my B.Tech. 4th year. I took part in the Debate Competetion and I conducted stalls with my own initiation. I am mainly interested in sports, watching films and I love to listen songs (Filmy) in my leisure time.</p>
+                    </div>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Trainings</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>B.E (Electronics & Telecommunication)</span> <br> Lakhmi Chand Institute Of Technology <br> 2019 - 75%</li> <br>
+                            <li><span>School (Higher Secondary)</span> <br>Railway English Med. Bilaspur <br>2015 - 67%</li><br>
+                            <li><span>School (Secondary)</span> <br> Railway English Med. Bilaspur <br>2013 - 9 CGPA</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span> CG Electrical InfraStructure</span> <br>Sales Engineer <br>(March 2020 - October 2022)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Major training</span> <br> SEC Railway Bilaspur <br>Signalling and Telecommunication</li><br>
+                            <li><span>Minor Training</span> <br> All India Radio <br>AM, FM & Broadcasting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------Grid Section-------- -->
+    <section id="Grids">
+        <div class="gridContainer">
+            <h1 class="head">Ski<span>lls</span> </h1>
+            <div class="gridElements">
+                <div class="grid-Col gridCol-1">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web designing</h2>
+                    <p>Bachelor's degree recipient with a background in web design and development. W3C web developer certification with Knowlwdge of HTML, CSS & JavaScript. Working on personal Projects, Seeking to become the next front end developer for an IT Company.</p>
+                </div>
+                <div class="grid-Col gridCol-2">
+                    <i class="fa-solid fa-solar-panel"></i>
+                    <h2>Solar System Installation</h2>
+                    <p>Solar Plant synchronization and installation of panels, inverter and battery</p> 
+                </div>
+                <div class="grid-Col gridCol-3">
+                    <i class="fa-solid fa-microchip"></i>
+                    <h2>PCB designing</h2>
+                    <p>Having Knowlwdge Of PCB onboard design printing as learnt in an workshop of PCB designing during 3rd year of college</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----------Portfolio Section----------  -->
+
+    <section id="Portfolio">
+        <div class="portContainer">
+            <h1 class="head">Ac<span>hi</span>ve<span>me</span>nts </h1>
+            <div class="portElements">
+                <div class="port-Col portCol-1 portimg-Size">
+                    <img src="/Academics.jpg" alt=""  class="spcimg">
+                    <div class="layer">
+                        <h2 class="layerHead">Academic rank Holder</h2>
+                        <p>Academic Rank holder in College, First and second position in Second and Third year as well as got mostly ranked within top 5 in school times.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="port-Col portCol-2 portimg-Size">
+                    <img src="/Atheletics.jpg" alt="">
+                    <div class="layer">
+                        <h2 class="layerHead">National Atheletic player</h2>
+                        <p>Junior national Atheletics Player in shotput game organised at Haridwar certified with participation Certificate of Nationals</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="port-Col portCol-3 portimg-Size">
+                    <img src="/Football.jpg" alt="">
+                    <div class="layer">
+                        <h2 class="layerHead">State Football player</h2>
+                        <p>State Level Played In Footall as well as represented School at Cluster level Football Competetion and played Inter College Football Tournament as Sports Captain</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <button class="btn">See More</button>
+            </div>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/34282ef35d.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
